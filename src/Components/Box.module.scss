@@ -1,0 +1,23 @@
+@import '../Utilities/variables';
+@import '../Utilities/mixins';
+
+.box {
+    @include box-shadow;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+//light theme is default
+.light {
+    background-color: $bg-primary;
+    color: $text-primary;
+}
+
+.dark {
+    background-color: $bg-secondary;
+    color: $text-secondary;
+}   

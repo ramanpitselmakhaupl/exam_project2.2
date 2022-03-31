@@ -1,6 +1,15 @@
+import Box from './Box';
+
 function Home() {
     return (
-        <h1>Homepage</h1>
+        <>
+            <Box>
+                <h1>Hello World!</h1>
+            </Box>
+            <Box dark>
+                <h1>Hello World!</h1>
+            </Box>
+        </>
     );
 }
 
